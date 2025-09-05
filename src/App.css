@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('./assets/backgroundimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,24 +25,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white
 }
 
-body {
-  background-image: 'url(/gitbackground.jpg)';
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  font-family: 'Times New Roman', Times, serif;
+.App-container {
+  font-family: Arial, sans-serif;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -44,4 +50,9 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1 {
+  color: orange;
+  font-family : Arial, Helvetica, sans-serif
 }

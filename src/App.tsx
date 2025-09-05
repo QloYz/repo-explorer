@@ -54,9 +54,16 @@ function App() {
       return 0;
   }
 });
+
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>GitHub Repo Explorer</h1>
+      <div className="App">
+      <div className="App-container">
+        <header className="App-header">
+          <h1>GitHub Repo Explorer</h1>
+        </header>
+      </div>
+    </div>
       <SearchBar onSearch={fetchRepos} />
       <div style={{ marginBottom: "1rem" }}>
         <label htmlFor="sort">Sort by: </label>
